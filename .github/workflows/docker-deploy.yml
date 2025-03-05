@@ -1,4 +1,4 @@
-﻿name: Build and Run Docker Container
+name: Build and Run Docker Container
 
 on:
   push:
@@ -33,3 +33,6 @@ jobs:
       - name: Run Docker Container
         run: |
           docker run -d -p 8080:5000 hardikrai1229/portfolio:latest
+
+      - name: Verify Container is Running
+        run: docker ps -a
