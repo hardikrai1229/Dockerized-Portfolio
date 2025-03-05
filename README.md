@@ -11,9 +11,10 @@ This is a fully Dockerized portfolio website that can be built, pushed, and depl
 git clone https://github.com/hardikrai1229/Dockerized-Portfolio.git
 cd Dockerized-Portfolio
 # 2️⃣ Build & Run Using Docker
-a) Pull the latest image from Docker Hub
+a)Pull the latest image from Docker Hub
 docker pull hardikrai1229/portfolio:latest
-b) Run the container
+
+b)Run the container
 docker run -d -p 8080:5000 hardikrai1229/portfolio:latest
 # 🔗 Access your portfolio at:
 👉 http://localhost:8080
